@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:#f0f2f5;
+}
+.formWrapper h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 700;
+    color:#0bc560;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.signup {
+    padding: 15px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 7px 20px #dddddd;
+    overflow: hidden;
+}
+form .Name{
+    display: flex;
+    width: 100%;
+}
+.Name input {
+    padding: 16px 30px;
+    font-size: 23px;
+    border: none;
+    outline: 3px solid whitesmoke;
+    border-radius: 5px;
+    margin: 7px;
+}
+.formText{
+    text-align: center;
+     font-style: italic;
+     font-size: 25px;
+     margin-bottom: 7px;
+     color: black;
+     border-bottom: 2px solid rgb(137, 136, 136);
+     width: 120%;
+     padding: 20px;
+}
+.form-filed {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.form-filed input {
+    padding: 16px 30px;
+    font-size: 20px;
+    border: none;
+    outline: 3px solid whitesmoke;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.Gender{
+    display: flex;
+    width: 100%;
+}
+.Gender > * {
+    border:  2px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 16px 30px;
+    font-size: 23px;
+    border: none;
+    outline: 3px solid whitesmoke;
+    border-radius: 5px;
+    margin: 10px;
+}
+.Gender input[type='radio']{
+    font-size: 500px;
+}
+.Gender label{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+
+.btn-signup {
+    width: 70%;
+    padding: 10px 20px;
+    font-size: 27px;
+    color: #ffffff;
+    background-color: #0bc560;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin:  2rem 10px;
+    cursor: pointer;
+}
+.btn-signup:hover{
+    opacity: 0.8;
+}
+
+.Account  a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.Account  a:hover{
+   color: #0bc560;
+   text-decoration: underline;
+}
+
+.login{
+    padding: 15px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 7px 20px #dddddd;
+    /* overflow: hidden;    */
+    width: 40%;
+}
+
+.Authname {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+.Authname input {
+        padding: 16px 30px;
+        font-size: 20px;
+        border: none;
+        outline: 3px solid whitesmoke;
+        border-radius: 5px;
+        margin: 7px;
+        width: 100%;
+    }
+    .btn-login{
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 27px;
+        color: #ffffff;
+        background-color: #0bc560;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        margin:  2rem 10px;
+        cursor: pointer;
+    }
+    .btn-login:hover{
+        opacity: 0.8;
+    }
+     /* file */
+
+     .custom-file-input {
+        display: none;
+      }
+      
+      /* Style the label to look like a button or custom element */
+      .custom-file-label {
+        font-size: 20px;
+        background-color: #007bff; /* Change background color */
+        color: #fff; /* Change text color */
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+      }
+      
+      /* Style the label when hovering over it */
+      .custom-file-label:hover {
+        background-color: #0056b3; /* Change background color on hover */
+      }
+
+      
+
+@media (max-width: 768px) {
+    .formWrapper{
+    padding: 0px 17px;
+    }
+    .signup {
+        /* border:  2px solid red; */
+        width: 100%;
+        box-shadow: 10px 7px 20px #f5eaea;
+    }
+    .Name input {
+        padding: 10px 50px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .form-filed input {
+        padding: 10px 50px;
+        font-size: 12px;
+    }
+    .Gender > * {
+        padding: 10px 20px;
+        font-size: 12px;
+        gap: 20px;
+    }
+    .login {
+        width: 100%;
+        padding: 10px  20px;
+    }
+    .Authname input {
+        width: 100%;
+        font-size: 15px;
+    }
+    .Authname {
+
+    }
+  }
+  
